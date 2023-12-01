@@ -1,0 +1,105 @@
+name: shooping
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+#
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+ 
+  cupertino_icons: ^1.0.2
+  flutter_otp_text_field: ^1.1.1
+  lottie: ^2.6.0
+  firebase_analytics: ^10.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+ 
+  flutter_lints: ^2.0.0
+  get: ^4.6.1
+  # DateTime
+  jiffy: ^6.2.1
+  intl: ^0.18.1
+  http: ^1.1.0
+ 
+
+  
+  # Images
+  cached_network_image: ^3.2.0 
+  image_picker: ^1.0.4
+  # Animate
+  show_up_animation: ^2.0.0
+  auto_animated: ^3.0.1
+  # Google Map
+  flutter_polyline_points: ^2.0.0
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  geocoding: ^2.0.4
+  rename: ^2.1.1
+  # Firebase And Notification 
+  firebase_messaging: ^14.6.8
+  firebase_core: ^2.16.0
+  flutter_local_notifications: ^15.1.1
+  cloud_firestore: ^4.0.2
+  # Local Data Cache
+  sqflite: ^2.0.2
+  shared_preferences: ^2.0.15
+  path: ^1.8.0
+  # Qrcode 
+  qr_flutter: ^4.0.0
+  scan: ^1.6.0
+  grouped_list: ^5.1.2
+  url_launcher: ^6.1.2
+  dropdown_search: ^5.0.6
+  badges: ^3.1.2
+  # Icon 
+  # flutter_svg: ^1.0.3
+  font_awesome_flutter: ^10.1.0
+  fluttericon: ^2.0.0
+  dartz: ^0.10.1
+  # Google Auth
+  google_sign_in: ^6.1.5  
+  responsive_builder: ^0.7.0
+  image_pickers: ^2.0.0+2
+  drop_down_list: ^0.0.5
+  # flutter_otp_text_field: ^1.1.1
+  file_picker: ^6.1.1
+  flutter_svg: ^2.0.7
+  rating_dialog: ^2.0.4
+  # geolocator: ^10.0.1
+
+
+# following page: https://dart.dev/tools/pub/pubspec
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - asset/images/
+    - asset/lottie/   
+
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: asset/fonts/Cairo-Black.ttf.url
+          weight: 700
+  
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+
+  
